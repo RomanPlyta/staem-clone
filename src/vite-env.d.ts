@@ -1,0 +1,1 @@
+declare module '*.css';  /*add css module support for TypeScript*/

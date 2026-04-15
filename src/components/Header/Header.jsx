@@ -4,6 +4,7 @@ import './Header.scss';
 const Header = () => {
   return (
     <header className="header">
+
       <div className="header-logo">
         <Link to="/">STEAM CLONE</Link>
       </div>
@@ -20,6 +21,7 @@ const Header = () => {
         <Link to="/wishlist">Wishlist</Link>
         <Link to="/cart">Cart</Link>
       </div>
+      
     </header>
   );
 };
