@@ -9,6 +9,8 @@ import ProfilePage from './pages/Profile';
 import WishlistPage from './pages/Wishlist';
 import CartPage from './pages/Cart';
 
+import './App.scss'
+
 function App() {
   return (
     <Router>

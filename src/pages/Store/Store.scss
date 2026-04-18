@@ -1,0 +1,28 @@
+.store {
+  padding: 20px;
+
+  &__input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  &__card {
+    width: 200px;
+    background: #1b2838;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+
+    img {
+      width: 100%;
+      border-radius: 5px;
+    }
+  }
+}
